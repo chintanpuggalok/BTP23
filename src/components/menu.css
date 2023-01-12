@@ -1,0 +1,98 @@
+.menu-menu {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.menu-mobile-navigation {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  z-index: 150;
+  position: fixed;
+  transform: translateX(100%);
+  transition: transform 0.3s;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
+}
+.menu-logo {
+  width: 64px;
+}
+.menu-links {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.menu-close-mobile-menu {
+  top: var(--dl-space-space-oneandhalfunits);
+  right: var(--dl-space-space-oneandhalfunits);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+}
+.menu-desktop-navigation {
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
+  flex-direction: column;
+}
+.menu-root-class-name {
+  width: 100%;
+  align-self: center;
+  margin-top: 22px;
+}
+.menu-root-class-name1 {
+  align-self: flex-end;
+  margin-top: 22px;
+}
+.menu-root-class-name2 {
+  margin-top: 22px;
+}
+.menu-root-class-name3 {
+  margin-top: 22px;
+}
+@media(max-width: 991px) {
+  .menu-close-mobile-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-desktop-navigation {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 767px) {
+  .menu-desktop-navigation {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .menu-logo {
+    margin-left: 0px;
+  }
+  .menu-icon {
+    align-items: center;
+    justify-content: center;
+  }
+}
