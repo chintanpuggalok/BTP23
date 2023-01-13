@@ -63,21 +63,21 @@ closeButton.addEventListener("click", function() {
 }
 
 Menu.defaultProps = {
+  text1: 'How it works',
+  rootClassName: '',
+  text2: 'Prices',
+  text: 'Solutions',
   Logo_src: 'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
   Logo_alt: 'pastedImage',
-  text: 'Solutions',
-  text1: 'How it works',
-  text2: 'Prices',
-  rootClassName: '',
 }
 
 Menu.propTypes = {
+  text1: PropTypes.string,
+  rootClassName: PropTypes.string,
+  text2: PropTypes.string,
+  text: PropTypes.string,
   Logo_src: PropTypes.string,
   Logo_alt: PropTypes.string,
-  text: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default Menu

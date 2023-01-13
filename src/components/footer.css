@@ -13,10 +13,10 @@
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
   justify-content: space-between;
 }
 .footer-navlink {
@@ -37,13 +37,6 @@
 }
 .footer-register {
   text-decoration: none;
-}
-.footer-burger-menu {
-  display: none;
-}
-.footer-icon {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
 }
 .footer-mobile-menu {
   top: 0px;
@@ -78,21 +71,21 @@
   align-items: center;
   justify-content: center;
 }
-.footer-icon02 {
+.footer-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.footer-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.footer-icon06 {
+.footer-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.footer-icon08 {
+.footer-icon4 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.footer-icon6 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -137,19 +130,30 @@
   .footer-btn-group {
     display: none;
   }
-  .footer-burger-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
 @media(max-width: 479px) {
   .footer-footer {
+    height: 98px;
+    padding-top: var(--dl-space-space-unit);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
   }
   .footer-header {
+    top: 2px;
+    left: 0px;
+    margin: auto;
     padding: var(--dl-space-space-unit);
+    position: absolute;
+    padding-right: 16px;
+  }
+  .footer-image {
+    top: 28px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    position: absolute;
   }
   .footer-mobile-menu {
     padding: 16px;

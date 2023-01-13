@@ -71,6 +71,7 @@
 .menu-root-class-name3 {
   margin-top: 22px;
 }
+
 @media(max-width: 991px) {
   .menu-close-mobile-menu {
     align-items: center;
@@ -94,5 +95,25 @@
   .menu-icon {
     align-items: center;
     justify-content: center;
+  }
+  .menu-root-class-name {
+    margin-top: var(--dl-space-space-halfunit);
+  }
+  .menu-root-class-name1 {
+    margin-top: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .menu-root-class-name2 {
+    margin-top: var(--dl-space-space-halfunit);
+  }
+  .menu-root-class-name3 {
+    margin-top: var(--dl-space-space-halfunit);
+  }
+  .menu-root-class-name4 {
+    top: var(--dl-space-space-halfunit);
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
   }
 }

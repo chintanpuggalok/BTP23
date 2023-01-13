@@ -54,8 +54,8 @@ Centered.defaultProps = {
   Logo_src: '/playground_assets/logo-200h.png',
   text: 'ABOUT',
   text3: 'DATABASE',
-  Mobile_Menu_Button_alt: 'pastedImage',
   rootClassName: '',
+  Mobile_Menu_Button_alt: 'pastedImage',
 }
 
 Centered.propTypes = {
@@ -66,8 +66,8 @@ Centered.propTypes = {
   Logo_src: PropTypes.string,
   text: PropTypes.string,
   text3: PropTypes.string,
-  Mobile_Menu_Button_alt: PropTypes.string,
   rootClassName: PropTypes.string,
+  Mobile_Menu_Button_alt: PropTypes.string,
 }
 
 export default Centered

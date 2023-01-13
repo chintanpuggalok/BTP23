@@ -15,7 +15,7 @@ const Home = (props) => {
         <meta property="og:title" content="CDVCI" />
       </Helmet>
       <section className="home-hero">
-        <Menu></Menu>
+        <Menu rootClassName="menu-root-class-name4"></Menu>
         <header className="home-header">
           <h1 className="home-text">
             <span>
