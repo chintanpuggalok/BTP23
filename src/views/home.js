@@ -11,8 +11,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Active Online Software Page1</title>
-        <meta property="og:title" content="Active Online Software Page1" />
+        <title>CDVCI BTP23</title>
+        <meta property="og:title" content="CDVCI" />
       </Helmet>
       <section className="home-hero">
         <Menu></Menu>

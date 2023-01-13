@@ -1,5 +1,5 @@
 {
-  "name": "active-online-software-page1",
+  "name": "cdvci",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -34,5 +34,22 @@
   },
   "devDependencies": {
     "react-scripts": "^5.0.1"
-  }
+  },
+  "description": "Cytokines & Receptors",
+  "main": "craco.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryasoni98/BTP23.git"
+  },
+  "keywords": [
+    "CDVCI",
+    "Cytokines",
+    "Receptors"
+  ],
+  "author": "Arya Soni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aryasoni98/BTP23/issues"
+  },
+  "homepage": ""
 }
