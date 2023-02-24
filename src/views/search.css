@@ -62,3 +62,39 @@
     color: #EEE9FE;
   }
 }
+.tableContainer{
+  
+  border-radius: 20px;
+  height: 40vh;
+  padding: 0 10px 10px 10px;
+  overflow: scroll;
+  text-align: center;
+  /* margin: 0 auto; */
+  
+  /* border: 1px solid black; */
+  align-items: center;
+}
+Table thead{
+  position: sticky;
+  top: 0px;
+  margin: 0 0 0 0;
+}
+thead th {
+  background-color: #5228f5;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  
+}
+
+Table {
+  display: table;
+  margin:auto;
+  border-collapse: separate;
+  box-sizing: border-box;
+  /* text-indent: initial; */
+  /* border: 1px solid gray; */
+  /* border-spacing: 2px; */
+  
+}
